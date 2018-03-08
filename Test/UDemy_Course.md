@@ -1,22 +1,3 @@
-Version Control with Rails (GitHub)
-
-Using a SSH Key
-Navigate to your GitHub's Settings tab and find the SSH and GPG keys
-'New SSH Key'
-Or follow this tutorial "Generate a new SSH key"
-Open the Terminal
-ssh-keygen -t rsa -b 4096 -C "<your email here>"
-Enter a file in which ... [Press Enter]
-Enter passphrase: <create a pswrd and confirm it>
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_rsa
-pbcopy < ~/.ssh/id_rsa.pub
-This copies your key
-Settings in GitHub
-New SSH key
-Title = Your device, Key = your Key
-'Add SSH key'
-
 Create a Repository
 Click the "+" icon at the to right of GitHub's page
 Assign a name and desc for your repo
